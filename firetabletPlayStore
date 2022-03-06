@@ -1,0 +1,112 @@
+# How-To Install PlayStore
+* Nothing too complicated, just 'other source` APKs
+
+
+#### Pre-Req Allow (Settings)
+* Settings
+* Security & Privacy
+* Apps from Unknown Sources
+* Silk Browser
+* [x] Allow
+
+## 4 APKs
+* I'm going to guess it's `Fire HD 10 (9th Gen, 11th Gen)`
+  * Newest one at this point
+
+* Account Manager
+  * https://www.apkmirror.com/apk/google-inc/google-account-manager/google-account-manager-7-1-2-release/google-account-manager-7-1-2-android-apk-download/
+* Google Services Framework
+  * https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-9-4832352-release/google-services-framework-9-4832352-android-apk-download/
+* Google Play Services
+  * https://www.apkmirror.com/apk/google-inc/google-play-services/variant-%7B%22arches_slug%22:%5B%22arm64-v8a%22,%22armeabi-v7a%22%5D,%22dpis_slug%22:%5B%22nodpi%22%5D,%22minapi_slug%22:%22minapi-28%22%7D/
+* Google Play Store (all gens)
+  * https://www.apkmirror.com/apk/google-inc/google-play-store/variant-%7B%22arches_slug%22:%5B%22armeabi%22,%22armeabi-v7a%22,%22mips%22,%22mips64%22,%22x86%22,%22x86_64%22%5D,%22dpis_slug%22:%5B%22nodpi%22%5D%7D/
+
+### Install *Order Matters!*
+* Goto: Files App
+* Install Order:
+  1. com.google.android.gsf.login
+  2. com.google.android.gsf
+  3. com.google.android.gms
+  4. com.android.vending
+
+### *Reboot*
+* Should work. Warnings it might take up to 10 min for Services to update themselves in the background
+
+
+## Misc, Backup Plans
+* Might need to get a `File Browser` App, if not included
+  * Might be able to do it install APKs from the `download` anyways
+  * Apps Given:
+    * `File Commander`
+    * `Docs` (pre-installed?)
+
+#### Full Type -> Link Info
+##### Google Account Manager
+* V7.1.2 (Link provided originally)
+  * Types:
+    * Fire HD 10 (9th Gen, 11th Gen)
+    * Fire 7 (9th Gen)
+    * Fire HD 8 (8th, 10th Gen)
+* V5.1
+  * Types
+    * Fire HD 10 (7th Gen and older)
+    * Fire HD 8 (7th Gen and older)
+    * Fire 7 (7th Gen and older)
+    * Fire HD 6
+    * Fire HDX 8.9
+  * Link: https://www.apkmirror.com/apk/google-inc/google-account-manager/google-account-manager-5-1-1743759-release/google-account-manager-5-1-1743759-android-apk-download/
+
+##### Google Services Framework
+* v9-4832352 (Link provided originally)
+  * Types
+    * Fire HD 10 (9th Gen, 11th Gen)
+    * Fire HD 8 (10th Gen)
+    * Fire 7 (9th Gen) on Fire OS 7
+    * Fire HD 8 (8th Gen) on Fire OS 7
+
+* v7.1.2
+  * Types
+    * Fire 7 (9th Gen) on Fire OS 6
+    * Fire HD 8 (8th Gen) on Fire OS 6
+  * Link: https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-7-1-2-release/google-services-framework-7-1-2-android-apk-download/
+
+* v5.1
+  * Types
+    * Fire HD 10 (7th Gen and older)
+    * Fire HD 8 (7th Gen and older)
+    * Fire 7 (7th Gen and older)
+    * Fire HD 6
+    * Fire HDX 8.9
+  * Link: https://www.apkmirror.com/apk/google-inc/google-services-framework/google-services-framework-5-1-1743759-release/google-services-framework-5-1-1743759-android-apk-download/
+
+##### Google Play Services
+* 64-bit ARM, nodpi, Android 9.0+ (Link provided originally)
+  * Types:
+    * Fire HD 10 (9th Gen, 11th Gen)
+    * Fire HD 8 (10th Gen)
+
+* 32-bit ARM, nodpi, Android 6.0+
+  * Types:
+    * Fire 7 (9th Gen)
+  * Link: https://www.apkmirror.com/apk/google-inc/google-play-services/variant-%7B%22arches_slug%22:%5B%22armeabi-v7a%22%5D,%22dpis_slug%22:%5B%22nodpi%22%5D,%22minapi_slug%22:%22minapi-23%22%7D/
+
+* 64-bit ARM, nodpi, Android 6.0+
+  * Types:
+    * Fire HD 8 (8th Gen)
+  * Link: https://www.apkmirror.com/apk/google-inc/google-play-services/variant-%7B%22arches_slug%22:%5B%22arm64-v8a%22,%22armeabi-v7a%22%5D,%22dpis_slug%22:%5B%22nodpi%22%5D,%22minapi_slug%22:%22minapi-23%22%7D/
+
+* 32-bit ARM, nodpi, Android 5.0+
+  * Types:
+    * Fire HD 10 (7th Gen and older)
+    * Fire HD 8 (7th Gen and older)
+    * Fire 7 (7th Gen and older)
+    * Fire HD 6
+    * Fire HDX 8.9
+  * Link: https://www.apkmirror.com/apk/google-inc/google-play-services/variant-%7B%22arches_slug%22:%5B%22armeabi-v7a%22%5D,%22dpis_slug%22:%5B%22nodpi%22%5D,%22minapi_slug%22:%22minapi-21%22%7D/
+
+
+#### Sources:
+* https://www.howtogeek.com/232726/how-to-install-the-google-play-store-on-your-amazon-fire-tablet/
+* https://www.androidpolice.com/install-play-store-amazon-fire-tablet/
+* https://www.alphr.com/chrome-kindle-fire/
